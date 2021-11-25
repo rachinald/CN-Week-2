@@ -1,0 +1,297 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Montserrat:wght@100;200;400;700&display=swap');
+
+/* The box-sizing property allows us to include the padding and border in an element's total width and height.
+If you set box-sizing: border-box; on an element, padding and border are included in the width and height: */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    color: #2f2f2f;
+}
+
+.box {
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    /* top and bottom padding are 16px | right and left padding are 30px */
+    padding: 16px 50px;
+    
+}
+
+.navBar{
+    display: flex;
+    background-color:#33234e;
+    justify-content: center;
+
+}
+
+
+.logo{
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    width: 65%;
+
+}
+
+.body{
+    max-width: 1000px;
+    position: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+
+h2 {
+    color: #dea444;
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
+h3 {
+    color: #2f2f2f;
+    font-size: 20px;
+    letter-spacing: 0.45px;
+    text-align: center;
+}
+
+h4 {
+    color: #2f2f2f;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+h5 {
+    color: #e9e9e9;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.portraitPhoto {
+    position: left;
+    display: block;
+    width: 200px;
+}
+
+.portraitPhoto2 {
+    width: 400px;
+    margin: 20px;
+}
+
+.textBox1 {
+    width: 800px;
+    padding: 35px 30px;
+}
+
+button {
+    background-image: url("./leaf-bg-two.jpg");
+    background-size: 120%;
+    box-shadow: inset 0 0 0 1000px rgba(13, 129, 71, 0.2);
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 16px;
+  }
+
+  .button1 {
+    margin: 8px 200px 0px;  
+  } 
+
+  .button2 {
+    margin: -65px 350px 0px;
+  } 
+
+  .button3 {
+    margin: -65px 350px 0px;
+  } 
+
+  .block1 {
+    display: flex;
+    border: 15px solid #33234e;
+}
+
+  .block2 {
+    background-color: #dea444;
+    padding: 30px 30px 60px;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
+}
+
+.block3 {
+    border: 15px solid #889164;
+    padding: 30px 30px 60px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.block4 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 40px 0px ;
+}
+
+.block5 {
+    background-color: #889164;
+    margin: 50px 0px;
+    padding: 55px 0px;
+    
+    }
+
+    input {
+        width: 237px;
+        background-color: #e9e9e9;
+        padding: 20px 20px;
+        margin: 0px 5px;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    
+      }
+
+      input[type=text]:focus {
+        background-color: #dea444;
+        outline: none;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+       
+      }
+
+      input[type=button], input[type=submit], input[type=reset] {
+        background-color: #dea444;
+        border: none;
+        color: white;
+        cursor: pointer;
+      }
+
+.whatPeopleSay {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 10px;
+    font-size: 45px;
+    color: #3e4434;
+    text-align: center;
+    margin: 60px 0px;;
+}
+    
+.reviews {
+    display:flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.reviewBox{
+    font-weight: bold;
+    letter-spacing: 0px;
+    font-size: 18px;
+    padding: 40px;
+    width: 330px;
+    text-align: center;
+    
+}
+
+.box1 {
+    background-color: #5e6d2d;
+    margin: 0px 25px 0px 0px;
+    color:#d6a556;
+    
+
+}
+
+.review {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0px;
+    color: #e9e9e9;
+
+}
+
+.review2 {
+    color: #2f2f2f;
+}
+
+.review3 {
+    font-size: 12px;
+}
+
+.box2 {
+    background-color: #e6a846;
+    margin: 0px 25px 0px 0px;
+    color: #5e6d2d;
+}
+
+.box3 {
+    background-color: #33234e;
+    color: #e9e9e9;
+    
+}
+
+.quote {
+    font-family: 'IM Fell French Canon', serif;
+    font-size: 120px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.lotus {
+    margin: 50px 450px 20px;
+
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color:#e6a846;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    font-size: 14px;
+    color: #e9e9e9;
+    text-align:center;
+
+}
+
+
+.fb {
+    padding: 20px 0px;
+}
+
+.insta {
+    padding: 20px;
+}
+
+.copyright {
+    padding: 20px;
+    margin: 0px 250px 0px 0px;
+}
+
+.footerEmail {
+    padding: 20px;
+    margin: 0px 250px 0px 0px;
+}
